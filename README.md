@@ -28,7 +28,7 @@ Greetings from Arturo! Today is Saturday, September 19, 2026.
 
 (The date will match the day you open the page.)
 
-Software Demo Video: [LINK AL VIDEO AQUÍ]
+Software Demo Video: https://youtu.be/c8EGB75Dty0
 
 ## Development Environment
 
