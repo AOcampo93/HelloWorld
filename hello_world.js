@@ -1,12 +1,16 @@
 // hello_world.js
 // CSE 310 - Applied Programming
-// A first JavaScript program: prints "Hello World" to the console,
+// A first JavaScript program: writes "Hello World" on a web page,
 // followed by a short personalized greeting.
 //
-// Run it with:  node hello_world.js
+// Run it by opening index.html in a web browser.
 
-// The classic first message.
-console.log("Hello World");
+// Find the elements in index.html where the text will go.
+const message = document.getElementById("message");
+const greeting = document.getElementById("greeting");
+
+// The classic first message, written into the page.
+message.textContent = "Hello World";
 
 // A small personal touch: greet the author and show today's date.
 const author = "Arturo";
@@ -18,4 +22,4 @@ const today = new Date().toLocaleDateString("en-US", {
 });
 
 // Template literals (backticks) let us insert variables into a string.
-console.log(`Greetings from ${author}! Today is ${today}.`);
+greeting.textContent = `Greetings from ${author}! Today is ${today}.`;
